@@ -4,23 +4,23 @@ Create a password generator that builds passwords from customisable "elements" -
 
 # How it works
 
-    You define a list of available elements:
+You define a list of available elements:
 
-        Letters (A-Z, a-z)
+- Letters (A-Z, a-z)
 
-        Numbers (0-9)
+- Numbers (0-9)
 
-        Symbols (~!@#$...)
+- Symbols (~!@#$...)
 
-        Custom words (from a file or predefined collection in code, e.g., "example", "0811")
+- Custom words (from a file or predefined collection in code, e.g., "example", "0811")
 
-    The generator should create all possible passwords up to N elements long, where each element can be any letter, number, symbol or word from your list.
+The generator should create all possible passwords up to N elements long, where each element can be any letter, number, symbol or word from your list.
 
-    Example: For N=3, possible passwords include A7!, wordZ9, or hello12@ (where word or hello are words in the list)
+Example: For N=3, possible passwords include A7!, wordZ9, or hello12@ (where word or hello are words in the list)
 
 # Acceptable Criteria
 
-    Generates a lists of passwords up to N **elements** containing letters, numbers and words.
+Generates a lists of passwords up to N **elements** containing letters, numbers and words.
     Specify maximum password length in elements (not just characters).
 
 # Goal
